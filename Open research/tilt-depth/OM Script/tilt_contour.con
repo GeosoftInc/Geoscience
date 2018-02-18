@@ -1,0 +1,10 @@
+
+0,1, ,1 /border, lowtic, smooth, suppop, nth
+dp=kt150 /pdef, ptick, pxval, pframe, psidel
+1.5 /hlb, htl, hcr, htk, hxv, hsl
+     /ominl,cminl,skipa,skipb,skipc,skipd,skipe,skipf
+0,0, /xval, digxv, minxv, markxv
+1,,,0,,,0 /levopt, conbeg, conend, lbup, lbmult, logopt, labelcol
+-22.5,1,C1=kt150,1,0.5,0 /cint,lintyp,catt,label,dense,digits,conlo,conhi
+0,2,C2=kt450,1,0.5,0 /cint,lintyp,catt,label,dense,digits,conlo,conhi
+22.5,1,C3=kt150,1,0.0,0 /cint,lintyp,catt,label,dense,digits,conlo,conhi
