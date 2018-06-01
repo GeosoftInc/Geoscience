@@ -1,5 +1,7 @@
 # Geoscience
-Collaboration for Geosoft Open Geoscience.
+Collaboration for Geosoft Open Geoscience publications. This Github project will be used to share and collaborate
+aroung Geosoft open research projects that are presented at conferences, published in professional journals, and 
+published as Geosoft technical notes.
 
 ## Publications
 
