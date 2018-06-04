@@ -25,11 +25,10 @@ see https://www.riverbankcomputing.com/software/pyqt/intro for PyQt copyright.
 import os
 import sys
 import math
-import json
 import numpy as np
 import argparse as argp
 
-from PyQt5 import QtGui, QtWidgets
+from PyQt5 import QtGui, QtWidgets, QtCore
 
 import geosoft.gxpy.gx as gxp
 import geosoft.gxpy.gdb as gxgdb
@@ -68,7 +67,10 @@ class SOMException(Exception):
 class SomDialog(QtWidgets.QDialog, Ui_som_om):
 
     def __init__(self, gdb, settings):
-        super(SomDialog, self).__init__(None)
+        super(SomDialog, self).__init__(None,
+                                        QtCore.Qt.WindowSystemMenuHint |
+                                        QtCore.Qt.WindowTitleHint |
+                                        QtCore.Qt.WindowCloseButtonHint)
         self.setupUi(self)
 
         self.gdb = gdb
